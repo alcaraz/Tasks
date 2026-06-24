@@ -1,154 +1,113 @@
 [
-   {
-     "nom": "Tâches du jour",
-     "taches": [
-       {
-         "texte": "Mandat pour cause d'inaptitude à imprimer",
-         "etat": "a_faire",
-         "deadline": "2026-06-21",
-         "origine": "Maman"
-       },
-       {
-         "texte": "Ventilateur",
-         "etat": "a_faire",
-         "deadline": "2026-06-21",
-         "origine": "Maman"
-       },
-       {
-         "texte": "Asloca",
-         "etat": "en_cours",
-         "deadline": "2026-06-21",
-         "origine": "Maman"
-       },
-       {
-         "texte": "Contact notaire mandat inaptitude",
-         "etat": "a_faire",
-         "deadline": "2026-06-23",
-         "origine": "Maman"
-       }
-     ],
-     "speciale": true
-   },
-   {
-     "nom": "Maison",
-     "taches": [
-       {
-         "texte": "ranger affaires maman",
-         "fait": true,
-         "etat": "a_faire",
-         "deadline": "2026-06-14"
-       },
-       {
-         "texte": "Changer toner imprimante",
-         "etat": "a_faire",
-         "deadline": ""
-       },
-       {
-         "texte": "Poser lampe ventilateur",
-         "etat": "a_faire",
-         "deadline": ""
-       },
-       {
-         "texte": "réparer armoire chambre",
-         "etat": "a_faire",
-         "deadline": ""
-       },
-       {
-         "texte": "ranger lessive",
-         "etat": "fait",
-         "deadline": "2026-06-21"
-       }
-     ]
-   },
-   {
-     "nom": "Jardin",
-     "taches": [
-       {
-         "texte": "arroser plantes de la voisine",
-         "etat": "en_cours",
-         "deadline": "2026-06-22"
-       },
-       {
-         "texte": "arrosage du matin côté sud",
-         "etat": "a_faire",
-         "deadline": ""
-       },
-       {
-         "texte": "arrosage soir côté nord",
-         "etat": "a_faire",
-         "deadline": ""
-       }
-     ]
-   },
-   {
-     "nom": "Peggy",
-     "taches": [
-       {
-         "texte": "Envoyer factures assurance",
-         "etat": "a_faire",
-         "deadline": ""
-       },
-       {
-         "texte": "Promenade du matin",
-         "etat": "a_faire",
-         "deadline": ""
-       },
-       {
-         "texte": "Payer facture véto",
-         "etat": "fait",
-         "deadline": "2026-06-21"
-       }
-     ]
-   },
-   {
-     "nom": "Maman",
-     "taches": [
-       {
-         "texte": "Payer facture home",
-         "etat": "fait",
-         "deadline": "2026-06-21"
-       },
-       {
-         "texte": "Payer caution home",
-         "etat": "fait",
-         "deadline": "2026-06-21"
-       },
-       {
-         "texte": "Transfert CS-PF",
-         "etat": "fait",
-         "deadline": "2026-06-21"
-       }
-     ]
-   },
-   {
-     "nom": "dbTrad",
-     "taches": [
-       {
-         "texte": "Facture FNS",
-         "etat": "a_faire",
-         "deadline": "2026-06-22"
-       },
-       {
-         "texte": "2 factures Conf.",
-         "etat": "a_faire",
-         "deadline": "2026-06-22"
-       },
-       {
-         "texte": "Vérifier calendrier Conf.",
-         "etat": "a_faire",
-         "deadline": "2026-06-22"
-       }
-     ]
-   },
-   {
-     "nom": "Osotos",
-     "taches": [
-       {
-         "texte": "Contacter notaire tests Osotos",
-         "etat": "a_faire",
-         "deadline": "2026-06-23"
-       }
-     ]
-   }
+  {
+    "nom": "Tâches du jour",
+    "taches": [
+      {
+        "texte": "Mandat pour cause d'inaptitude à imprimer",
+        "etat": "a_faire",
+        "deadline": "2026-06-21",
+        "origine": "Maman"
+      },
+      {
+        "texte": "Ventilateur",
+        "etat": "a_faire",
+        "deadline": "2026-06-21",
+        "origine": "Maman"
+      },
+      {
+        "texte": "Asloca",
+        "etat": "en_cours",
+        "deadline": "2026-06-21",
+        "origine": "Maman"
+      },
+      {
+        "texte": "Contact notaire mandat inaptitude",
+        "etat": "a_faire",
+        "deadline": "2026-06-23",
+        "origine": "Maman"
+      }
+    ],
+    "speciale": true
+  },
+  {
+    "nom": "Maison",
+    "taches": [
+      {
+        "texte": "ranger affaires maman",
+        "fait": true,
+        "etat": "a_faire",
+        "deadline": "2026-06-14"
+      },
+      {
+        "texte": "Changer toner imprimante",
+        "etat": "a_faire",
+        "deadline": ""
+      },
+      {
+        "texte": "Poser lampe ventilateur",
+        "etat": "a_faire",
+        "deadline": ""
+      },
+      {
+        "texte": "réparer armoire chambre",
+        "etat": "a_faire",
+        "deadline": ""
+      },
+      {
+        "texte": "ranger lessive",
+        "etat": "fait",
+        "deadline": "2026-06-21"
+      }
+    ]
+  },
+  {
+    "nom": "Peggy",
+    "taches": [
+      {
+        "texte": "Envoyer factures assurance",
+        "etat": "a_faire",
+        "deadline": ""
+      },
+      {
+        "texte": "Promenade du matin",
+        "etat": "a_faire",
+        "deadline": ""
+      },
+      {
+        "texte": "Payer facture véto",
+        "etat": "fait",
+        "deadline": "2026-06-21"
+      }
+    ]
+  },
+  {
+    "nom": "Maman",
+    "taches": [
+      {
+        "texte": "Payer facture home",
+        "etat": "fait",
+        "deadline": "2026-06-21"
+      },
+      {
+        "texte": "Payer caution home",
+        "etat": "fait",
+        "deadline": "2026-06-21"
+      },
+      {
+        "texte": "Transfert CS-PF",
+        "etat": "fait",
+        "deadline": "2026-06-21"
+      }
+    ]
+  },
+  {
+    "nom": "Osotos",
+    "taches": [
+      {
+        "texte": "Contacter notaire tests Osotos",
+        "etat": "a_faire",
+        "deadline": "2026-06-23"
+      }
+    ]
+  }
 ]
-
