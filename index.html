@@ -4,9 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Tâches</title>
-     <link
-href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Nunito:wght@300;400;600&display=swap"
-rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="tasks.css?t=456">
 </head>
 <body>
@@ -55,9 +53,7 @@ document.getElementById("settings-btn").onclick = () => {
    // Pré-remplir si un token existe
    const t = localStorage.getItem("github_token");
    document.getElementById("input-token").value = t || "";
-   document.getElementById("status-token").textContent = t
-     ? "Token actuellement enregistré."
-     : "Aucun token enregistré.";
+   document.getElementById("status-token").textContent = t? "Token actuellement enregistré." : "Aucun token enregistré.";
 };
 
 // Fermer la fenêtre
@@ -70,8 +66,7 @@ document.getElementById("save-token").onclick = () => {
    const t = document.getElementById("input-token").value.trim();
    if (t) {
      localStorage.setItem("github_token", t);
-     document.getElementById("status-token").textContent = "Token
-enregistré.";
+     document.getElementById("status-token").textContent = "Token enregistré.";
    }
 };
 
