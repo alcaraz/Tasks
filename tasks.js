@@ -2,12 +2,12 @@
   * 0. Constantes globales
   ****************************************************/
 const JSON_URL =
-"https://raw.githubusercontent.com/alcaraz/Tasks/refs/heads/main/listes.json";
+"https://raw.githubusercontent.com/alcaraz/Tasks/main/listes.json";
  //"https://raw.githubusercontent.com/Domianne/tasks/main/listes.json";
 const API_URL =
-"https://api.github.com/repos/alcaraz/Tasks/refs/heads/main/listes.json";
+"https://api.github.com/repos/alcaraz/Tasks/contents/listes.json";
 //"https://api.github.com/repos/Domianne/tasks/contents/listes.json";
-window.VERSION = "23-06-2026 12h37";
+window.VERSION = "juan-24-Jun-2026";
 
 /****************************************************
   * 1. Variable principale (globale)
